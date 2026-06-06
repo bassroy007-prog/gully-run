@@ -1,0 +1,17 @@
+# Exclude large reference artwork folder from EAS uploads
+Mumbai Gully Run/
+
+# Native folders — EAS runs expo prebuild fresh each time
+android/
+ios/
+
+# Node modules (EAS installs fresh)
+node_modules/
+
+# Expo export dist
+dist/
+
+# Local env files
+.env.local
+.env*.local
+google-service-account.json
